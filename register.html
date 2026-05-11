@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SkillNest - Register</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;font-family:Arial}
+        body{background:#f5f7fa;padding:20px}
+        .box{max-width:500px;margin:0 auto;background:white;padding:30px;border-radius:12px}
+        h2{text-align:center;color:#2c3e50;margin-bottom:20px}
+        .input{width:100%;padding:10px;margin:8px 0;border:1px solid #ddd;border-radius:6px}
+        select{width:100%;padding:10px;margin:8px 0;border:1px solid #ddd;border-radius:6px}
+        .btn{width:100%;padding:12px;background:#2ecc71;color:white;border:none;border-radius:6px;margin-top:10px}
+        label{font-size:14px;color:#34495e}
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>SkillNest Register</h2>
+        <input class="input" placeholder="Full Name">
+        <input class="input" placeholder="Student ID">
+        <input class="input" placeholder="WeChat">
+        <input class="input" type="password" placeholder="Password">
+
+        <label>Grade</label>
+        <select>
+            <option>Year 1</option><option>Year 2</option><option>Year 3</option><option>Year 4</option><option>Postgraduate</option>
+        </select>
+
+        <label>Major</label>
+        <select>
+            <option>Business</option><option>Humanities</option><option>Science & Tech</option><option>Culture & Creativity</option><option>Liberal Arts</option>
+        </select>
+
+        <label>User Type (Giver / Seeker / Exchanger)</label>
+        <select>
+            <option>Giver</option><option>Seeker</option><option>Exchanger</option>
+        </select>
+
+        <label>Skill Level</label>
+        <select>
+            <option>Beginner</option><option>Intermediate</option><option>Advanced</option>
+        </select>
+
+        <input class="input" placeholder="Skills I can offer">
+        <input class="input" placeholder="Skills I want to learn">
+
+        <button class="btn">Register</button>
+    </div>
+</body>
